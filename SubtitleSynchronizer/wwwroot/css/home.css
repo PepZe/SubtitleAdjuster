@@ -1,0 +1,44 @@
+﻿input {
+    display: block;
+    padding: 5px 10px;
+    border-color: aliceblue;
+    width: 20px;
+}
+
+.container-subtitles {
+    background-color: lightgray;
+    padding: 15px;
+    width: 450px;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+
+.border-style {
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: ridge;
+}
+
+.form-control-file {
+    cursor: pointer;
+    width: auto;
+    background-color: white;
+}
+
+.form-offset {
+    position: relative;
+    width: calc(100% - 53px);
+}
+
+
+#id-subtitle {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+#btn-download-subtitle {
+    width: auto;
+    /*background-color: lightgray;*/
+}

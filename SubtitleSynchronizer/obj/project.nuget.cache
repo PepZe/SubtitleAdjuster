@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jcC7Gog4ydWqZ4KvqSu6azW/OF/Au7BCMDOEOKMPWblEe2lLSIqTiTHSZ91eUrr9cNTNHzZDdA9Ah7Ynscz8zQ==",
+  "success": true,
+  "projectFilePath": "C:\\Pedro-Git\\SubtitleAdjuster\\SubtitleSynchronizer\\SubtitleSynchronizer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

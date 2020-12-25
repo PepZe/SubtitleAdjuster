@@ -1,0 +1,9 @@
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Domain\bin\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.deps.json
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Domain\bin\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.dll
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Domain\bin\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.pdb
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Domain\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.csprojAssemblyReference.cache
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Domain\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Domain\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.AssemblyInfo.cs
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Domain\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.dll
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Domain\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.pdb
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Domain\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.csproj.CoreCompileInputs.cache

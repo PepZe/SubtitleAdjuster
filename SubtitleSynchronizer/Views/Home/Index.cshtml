@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Subtitle Synchronizer";
+}
+@model string
+
+<div class="container">
+    <form>
+        <div id="div-form" class="form-group container-subtitles">
+            <label id="id-subtitle" for="label-subtitle">SubRip Subtitles Adjuster</label>
+            <input type="file" class="form-control-file border-style" id="file-input" accept=".srt" value="Choose file">
+            <input type="text" class="form-offset border-style" id="offset-input" placeholder="offset">
+            <small id="offset-info" class="form-text text-muted">Enter the value in milliseconds.</small>
+            @if (Model != null)
+            {
+                <a href="@Model" download onchange="Log()">Click here @Model</a>
+            }
+            <button type="button" id="btn-submit" class="btn btn-secondary btn-sm border-style" onclick="GetFile()">
+                Submit
+            </button>
+        </div>
+    </form>
+</div>
+
+@section scripts
+{
+    <script>
+        function Log() {
+            console.log("Changes");
+        }
+
+        function GetFile() {
+            var file = document.getElementById("file-input").files[0];
+            PostFile(file);
+        }
+
+        function GetOffset() {
+            return document.getElementById("offset-input").value;
+        }
+
+        function Download() {
+            var downloadButton =
+                $('<a href="' + response + '" download>Click here</a>');
+            $("#div-form").append(downloadButton);
+        }
+
+        function GetData(response) {
+            var data = "";
+            for (var i = 0; i < response.length; i++) {
+                data += response[i] + '\n'
+            }
+            return data;
+        }
+
+        function CreateDownloadElement(encodedUri) {
+            var link = document.createElement("a");
+
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", "Subtitle_.srt");
+            document.body.appendChild(link);
+
+            link.click();
+        }
+
+
+        async function PostFile(file) {
+            var text = await file.text();
+            var offset = GetOffset();
+
+            $.ajax({
+                url: '/subtitle/Adjuster',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ fileContent: text, offset: offset }),
+                success: function (response) {
+                    var downloadButton =
+                        $('<input type="button" value="Download" class="btn btn-secondary btn-sm border-style" id="btn-download-subtitle"/>');
+                    downloadButton.on("click",
+                        function () {
+                            var data = GetData(response);
+                            var srtContent = "data:text/srt;charset=utf-8," + data;
+
+                            var encodedUri = encodeURI(srtContent);
+                            CreateDownloadElement(encodedUri);                           
+                        });
+
+                    $("#div-form").append(downloadButton);
+
+                },
+                error: function (err) {
+                    console.log("error: " + err.responseText);
+                }
+            });
+        }
+    </script>
+}

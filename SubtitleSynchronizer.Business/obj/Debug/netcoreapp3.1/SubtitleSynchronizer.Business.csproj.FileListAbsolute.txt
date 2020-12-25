@@ -1,0 +1,14 @@
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\bin\Debug\netcoreapp3.1\SubtitleSynchronizer.Business.deps.json
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\bin\Debug\netcoreapp3.1\SubtitleSynchronizer.Business.dll
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\bin\Debug\netcoreapp3.1\SubtitleSynchronizer.Business.pdb
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\bin\Debug\netcoreapp3.1\SubtitleSynchronizer.Contracts.dll
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\bin\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.dll
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\bin\Debug\netcoreapp3.1\SubtitleSynchronizer.Contracts.pdb
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\bin\Debug\netcoreapp3.1\SubtitleSynchronizer.Domain.pdb
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Business.csprojAssemblyReference.cache
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Business.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Business.AssemblyInfo.cs
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Business.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Business.csproj.CopyComplete
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Business.dll
+C:\Users\pedro\source\repos\SubtitleSynchronizer.Business\obj\Debug\netcoreapp3.1\SubtitleSynchronizer.Business.pdb
